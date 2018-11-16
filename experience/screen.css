@@ -9,6 +9,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /* Base style elements */
+#contenido {
+  background-color: #686256;
+  font-family: 'Asul', sans-serif,"Comic Sans MS", "Comic Sans", cursive;
+}
 h1 {
   text-align: center;
   position: relative;
@@ -19,7 +23,7 @@ h1 {
   font-size: 2em;
   line-height: 1em;
   padding: 0.625em;
-  font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+  font-family: 'Alfa Slab One', cursive,"New Century Schoolbook", "TeX Gyre Schola", serif;
   font-weight: normal;
   color: #071D28;
   background-color: #b675619a;
@@ -27,14 +31,14 @@ h1 {
 
 h3 {
   margin-left: 1%;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family:  'Autour One', cursive,"Comic Sans MS", "Comic Sans", cursive;
   color: rgb(107, 134, 63);
   text-align: left;
   font-weight: normal;
 }
 h2 {
   margin-left: 1%;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family:  'Autour One', cursive,"Comic Sans MS", "Comic Sans", cursive;
   color: rgb(38, 40, 139);
   text-align: center;
   font-weight: normal;
@@ -48,9 +52,7 @@ p {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   color: #201201;
 }
-#contenido {
-  background-color: #686256;
-}
+
 #resume {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
