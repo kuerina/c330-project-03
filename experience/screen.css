@@ -9,6 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /* Base style elements */
+
 #contenido {
   background-color: #686256;
   font-family: 'Asul', sans-serif,"Comic Sans MS", "Comic Sans", cursive;
@@ -52,6 +53,32 @@ p {
   font-family: 'Asul', sans-serif,"Comic Sans MS", "Comic Sans", cursive;
   color: #201201;
 }
+nav ul{
+  display: flex;
+  list-style-type: none;
+  padding: 0.5em;
+}
+nav a:hover{
+  background-color:#c1502e;
+}
+nav li{
+  flex: 1 1 auto;
+  float: left ;
+  width: 33.3333%;
+  list-style-type: none;
+}
+nav a {
+  padding: 0.6111111111em;
+  background: #587e76;
+  border: 1px solid #c1502e;
+  border-radius: .5em;
+  color: #201201;
+  display: block;
+  text-align: center;
+  /*text-decoration: none;*/
+  font-size: x-large;
+}
+
 #contenido {
   background-color: #686256;
 }
@@ -141,6 +168,9 @@ ul li {
   color: #201201; 
   padding-left: 1.3em;
   padding-bottom: 0.5em;
+}
+nav ul li{
+  list-style-type: none;
 }
 #experience {
   grid-column: 1;
@@ -275,6 +305,8 @@ ul li {
     list-style-type: none;
     line-height: 1.33em;
     column-count: 1;
+    font-size: 1.5em;
+
   }
   footer li {
     color: antiquewhite;
@@ -285,9 +317,12 @@ ul li {
     list-style-position: inside;
     list-style-type: circle;
     padding: 0.1em;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-left: 1.3em;
     padding-bottom: 0.5em;
+  }
+  nav ul li{
+    list-style-type: none;
   }
   #experience {
     grid-column: 1;
@@ -317,6 +352,7 @@ ul li {
     display: grid;
     max-width: unset;
     padding: 0.625em;
+    font-size: 1.8em;
   }
   #skills h2 {
     grid-column: 1;
