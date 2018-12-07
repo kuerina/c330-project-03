@@ -12,7 +12,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 #contenido {
   background-color: #686256;
-  font-family: 'Asul', sans-serif,"Comic Sans MS", "Comic Sans", cursive;
+  font-family: Asul, sans-serif, "Comic Sans MS", "Comic Sans", cursive;
 }
 h1 {
   text-align: center;
@@ -24,7 +24,7 @@ h1 {
   font-size: 2em;
   line-height: 1em;
   padding: 0.625em;
-  font-family: 'Alfa Slab One', cursive,"New Century Schoolbook", "TeX Gyre Schola", serif;
+  font-family: "Alfa Slab One", cursive, "New Century Schoolbook", "TeX Gyre Schola", serif;
   font-weight: normal;
   color: #071D28;
   background-color: #b675619a;
@@ -32,14 +32,14 @@ h1 {
 
 h3 {
   margin-left: 1%;
-  font-family:  'Autour One', cursive,"Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Autour One", cursive, "Comic Sans MS", "Comic Sans", cursive;
   color: rgb(107, 134, 63);
   text-align: left;
   font-weight: normal;
 }
 h2 {
   margin-left: 1%;
-  font-family:  'Autour One', cursive,"Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Autour One", cursive, "Comic Sans MS", "Comic Sans", cursive;
   color: rgb(38, 40, 139);
   text-align: center;
   font-weight: normal;
@@ -50,38 +50,35 @@ h2 {
 p {
   font-size: 1em;
   line-height: 1.333em;
-  font-family: 'Asul', sans-serif,"Comic Sans MS", "Comic Sans", cursive;
+  font-family: Asul, sans-serif, "Comic Sans MS", "Comic Sans", cursive;
   color: #201201;
 }
-nav ul{
+nav ul {
   display: flex;
   list-style-type: none;
   padding: 0.5em;
-}
-nav a:hover{
-  background-color:#c1502e;
-}
-nav li{
-  flex: 1 1 auto;
-  float: left ;
-  width: 33.3333%;
-  list-style-type: none;
 }
 nav a {
   padding: 0.6111111111em;
   background: #587e76;
   border: 1px solid #c1502e;
-  border-radius: .5em;
+  border-radius: 0.5em;
   color: #201201;
   display: block;
   text-align: center;
   /*text-decoration: none;*/
   font-size: x-large;
 }
-
-#contenido {
-  background-color: #686256;
+nav a:hover {
+  background-color: #c1502e;
 }
+nav li {
+  flex: 1 1 auto;
+  float: left ;
+  width: 33.3333%;
+  list-style-type: none;
+}
+
 #resume {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -165,11 +162,11 @@ ul li {
   list-style-type: circle;
   padding: 0.1em;
   font-size: 1em;
-  color: #201201; 
+  color: #201201;
   padding-left: 1.3em;
   padding-bottom: 0.5em;
 }
-nav ul li{
+nav ul li {
   list-style-type: none;
 }
 #experience {
@@ -232,14 +229,14 @@ nav ul li{
   text-align: left;
 }
 .active, .collapsible:hover {
-  background-color:#c1502e;
+  background-color: #c1502e;
 }
 .content {
   display: block;
   overflow: block;
 
 }
-.content li{
+.content li {
   display: flex;
   overflow: block;
 }
@@ -254,7 +251,7 @@ nav ul li{
     grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: minmax(6.25em, auto);
   }
-  section{
+  section {
     border-color: #c1502e;
   }
   #biopic {
@@ -327,7 +324,7 @@ nav ul li{
     padding-left: 1.3em;
     padding-bottom: 0.5em;
   }
-  nav ul li{
+  nav ul li {
     list-style-type: none;
   }
   #experience {
@@ -455,10 +452,10 @@ nav ul li{
     max-width: unset;
     padding: 0.625em;
   }
-  #experience ol li{
+  #experience ol li {
     font-size: 1.3em;
   }
-  #experience ul li{
+  #experience ul li {
     font-size: 1.2em;
   }
   #experience h2 {
@@ -484,27 +481,27 @@ nav ul li{
     padding: 0.625em;
 
   }
-  #skills ol{
+  #skills ol {
     display: flex;
     flex-wrap: wrap;
     flex-direction: unset;
     font-size: 1.2em;
   }
-  #skills ol li{
+  #skills ol li {
     flex: 1 0 auto;
     float: left ;
     max-width: 31%;
     font-size: 1.2em;
-    padding: .5em;
-    display:block;
+    padding: 0.5em;
+    display: block;
   }
-  #skills .content{
+  #skills .content {
     display: flex;
     flex-wrap: wrap;
   }
-  #skills .content li{
+  #skills .content li {
     flex: 1 0 auto;
-    float:left;
+    float: left;
     max-width: unset;
   }
   #skills h2 {
