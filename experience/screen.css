@@ -235,9 +235,15 @@ nav ul li{
   background-color:#c1502e;
 }
 .content {
-  display: none;
-  overflow: hidden;
+  display: block;
+  overflow: block;
+
 }
+.content li{
+  display: flex;
+  overflow: block;
+}
+
 .button {
   border: #c1502e;
   background-color: #587e76;
@@ -305,7 +311,7 @@ nav ul li{
     list-style-type: none;
     line-height: 1.33em;
     column-count: 1;
-    font-size: 1.5em;
+    font-size: 1.3em;
 
   }
   footer li {
@@ -330,6 +336,7 @@ nav ul li{
     display: grid;
     max-width: unset;
     padding: 0.625em;
+    font-size: 1.2em;
   }
   #experience h2 {
     grid-column: 1;
@@ -352,7 +359,7 @@ nav ul li{
     display: grid;
     max-width: unset;
     padding: 0.625em;
-    font-size: 1.8em;
+    font-size: 1.2em;
   }
   #skills h2 {
     grid-column: 1;
@@ -448,6 +455,12 @@ nav ul li{
     max-width: unset;
     padding: 0.625em;
   }
+  #experience ol li{
+    font-size: 1.3em;
+  }
+  #experience ul li{
+    font-size: 1.2em;
+  }
   #experience h2 {
     grid-column: 1;
     grid-row: 1/2;
@@ -470,6 +483,29 @@ nav ul li{
     max-width: unset;
     padding: 0.625em;
 
+  }
+  #skills ol{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: unset;
+    font-size: 1.2em;
+  }
+  #skills ol li{
+    flex: 1 0 auto;
+    float: left ;
+    max-width: 31%;
+    font-size: 1.2em;
+    padding: .5em;
+    display:block;
+  }
+  #skills .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #skills .content li{
+    flex: 1 0 auto;
+    float:left;
+    max-width: unset;
   }
   #skills h2 {
     grid-column: 1;
